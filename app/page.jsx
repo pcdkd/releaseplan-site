@@ -5,54 +5,26 @@ import { Markdown } from 'components/markdown';
 import { ContextAlert } from 'components/context-alert';
 import { getNetlifyContext } from 'utils';
 
-const cards = [
-    //{ text: 'Hello', linkText: 'someLink', href: '/' }
-];
-
-const contextExplainer = `
-The card below is rendered on the server based on the value of \`process.env.CONTEXT\` 
-([docs](https://docs.netlify.com/configure-builds/environment-variables/#build-metadata)):
-`;
-
-const preDynamicContentExplainer = `
-The card content below is fetched by the client-side from \`/quotes/random\` (see file \`app/quotes/random/route.js\`) with a different quote shown on each page load:
-`;
-
-const postDynamicContentExplainer = `
-On Netlify, Next.js Route Handlers are automatically deployed as [Serverless Functions](https://docs.netlify.com/functions/overview/).
-Alternatively, you can add Serverless Functions to any site regardless of framework, with acccess to the [full context data](https://docs.netlify.com/functions/api/).
-
-And as always with dynamic content, beware of layout shifts & flicker! (here, we aren't...)
-`;
-
-const ctx = getNetlifyContext();
-
 export default function Page() {
     return (
         <main className="flex flex-col gap-8 sm:gap-16">
-            <section className="flex flex-col items-start gap-3 sm:gap-4">
-                <h1 className="mb-0">Welcome to Release Plan AI</h1>
-                <p className="text-lg">Your Ultimate Tool for Effortless Promotion</p>
-                <p>Are you an artist, manager, or marketer looking to amplify your next big release? Look no further! Release Plan AI is here to revolutionize the way you plan and execute your promotional campaigns.</p>
-                <h2>What We Do</h2>
-                <p>Release Plan AI is a cutting-edge planner designed to help you effortlessly generate promotional social content for your upcoming releases. Whether you&apos;re an artist, an artist manager, a record label marketer, or a streetwear brand marketer, our AI-powered tool is tailored to meet your needs.</p>
-                <h2>How It Works</h2>
-                <ol>
-                    <li>Add Your Release Details: Simply input your release title, date, and website.</li>
-                    <li>AI-Generated Content: Our advanced AI will automatically create a comprehensive plan of social posts to promote your release.</li>
-                    <li>Effortless Execution: Follow the plan and watch your promotional campaign come to life with minimal effort.</li>
-                </ol>
-                <h2>Why Choose Release Plan AI?</h2>
-                <ul>
-                    <li>Save Time: No more endless brainstorming sessions. Get a full promotional plan in minutes.</li>
-                    <li>Boost Engagement: Our AI crafts engaging content that resonates with your audience.</li>
-                    <li>Stay Organized: Keep all your promotional activities in one place, ensuring nothing falls through the cracks.</li>
-                    <li>Tailored for You: Whether you&apos;re in music, fashion, or any other creative industry, our tool adapts to your unique needs.</li>
-                </ul>
-                <h2>Join the Revolution</h2>
-                <p>Don&apos;t let the stress of planning promotions hold you back. Embrace the future of marketing with Release Plan AI and take your promotional game to the next level.</p>
-                <h2>Get Started Today</h2>
-                <p>Ready to make your next release a smashing success? Sign up now and let Release Plan AI do the heavy lifting for you. Your audience is waiting!</p>
+            <section className="flex flex-col sm:flex-row items-start gap-8 sm:gap-16">
+                <div className="flex flex-col gap-3 sm:gap-4 sm:w-3/5">
+                    <h1 className="mb-0">Fire your social media manager</h1>
+                    <p className="text-lg">Effortlessly create social media content with the first AI Release Planner! Generate social media content and posting schedules for your upcoming releases. Save time and money and hype up your album release or merch drop from a laptop instead of hiring a marketer.</p>
+                    <p>Add your release info and generate an AI release plan</p>
+                    <p>Schedule 100% AI posts easily across your socials</p>
+                    <p>Social content trained by elite record labels & streetwear brands</p>
+                    <p>Create 100% AI social media for any release you have</p>
+                    
+                </div>
+                <div className="flex flex-col items-center justify-center p-6 bg-blue-800 rounded-lg sm:w-2/5">
+                    <h2 className="text-2xl font-bold text-white"></h2>
+                    <p className="text-white">Get a complete release schedule in minutes.</p>
+                    <Link href="https://app.releaseplanai.com/" legacyBehavior>
+                        <a className="px-4 py-2 mt-4 text-lg no-underline font-semibold text-blue-800 bg-white rounded hover:bg-gray-200">Create your AI Release Plan +</a>
+                    </Link>
+                </div>
             </section>
         </main>
     );
