@@ -25,7 +25,7 @@ export default function Page() {
                     <Link href="https://app.releaseplanai.com/" legacyBehavior>
                         <a className="px-4 py-2 mt-4 text-lg no-underline font-semibold text-white bg-black hover:bg-white hover:text-black border border-white hover:border-black">Create your AI release plan+</a>
                     </Link>
-                    <p className="text-black text-xs mt-2">If you already have an account we&apos;`ll log you in</p>
+                    <p className="text-black text-xs mt-2">If you already have an account we&apos;ll log you in</p>
                 </div>
             </section>
             
@@ -98,7 +98,7 @@ export default function Page() {
                     </details>
                     <details className="border border-gray-300 rounded p-4">
                         <summary className="font-semibold cursor-pointer">Does Release Plan AI train on my data?</summary>
-                        <p className="mt-2">Not currently. We&apos;`re considering creating GPTs for each account and adding the ability to add brand assets so the GPT is training on our plan model and your own data but it&apos;`s nothing we have implemented yet.</p>
+                        <p className="mt-2">Not currently. We&apos;re considering creating GPTs for each account and adding the ability to add brand assets so the GPT is training on our plan model and your own data but it&apos;s nothing we have implemented yet.</p>
                     </details>
                     <details className="border border-gray-300 rounded p-4">
                         <summary className="font-semibold cursor-pointer">Can I upload images?</summary>
@@ -106,7 +106,7 @@ export default function Page() {
                     </details>
                     <details className="border border-gray-300 rounded p-4">
                         <summary className="font-semibold cursor-pointer">Does Release Plan AI genreate AI images for posts?</summary>
-                        <p className="mt-2">We don&apos;`t support image generation. Generally, image generation is the worst part of AI tools and we wouldn&apos;`t want people create more AI image slop.</p>
+                        <p className="mt-2">We don&apos;t support image generation. Generally, image generation is the worst part of AI tools and we wouldn&apos;t want people create more AI image slop.</p>
                     </details>
                     <details className="border border-gray-300 rounded p-4">
                         <summary className="font-semibold cursor-pointer">Can I cancel my subscription at any time?</summary>
