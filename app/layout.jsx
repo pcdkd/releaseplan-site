@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import { Footer } from '../components/footer';
 import { Header } from '../components/header';
+import Script from 'next/script'
 
 export const metadata = {
     title: {
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
                     </div>
                 </div>
             </body>
+            <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
         </html>
     );
 }
