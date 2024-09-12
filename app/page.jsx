@@ -89,7 +89,7 @@ export default function Page() {
                 <h2 className="text-3xl font-bold text-center mb-8">FAQ</h2>
                 <div className="flex flex-col gap-4">
                     <details className="border border-gray-300 rounded p-4">
-                        <summary className="font-semibold cursor-pointer">Who should use Release Plan AI for?</summary>
+                        <summary className="font-semibold cursor-pointer">Who should use Release Plan AI?</summary>
                         <p className="mt-2">We originally built this for marketers in music. Creating a release schedule for upcoming projects is time consuming. But we soon found interest and a use case for streetwear drops. The psychology of hype building is similar and as we expanded our model training found a lot of similarities in social copy. Now you get the benefit.</p>
                     </details>
                     <details className="border border-gray-300 rounded p-4">
