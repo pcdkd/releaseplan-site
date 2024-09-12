@@ -5,6 +5,7 @@
 @tailwind utilities;
 
 @layer base {
+    
     :not(pre) > code {
         @apply px-1 py-0.5 font-mono rounded bg-neutral-900 text-yellow-200;
         font-size: 0.9em;
@@ -33,4 +34,8 @@ a {
 
 .btn:disabled {
     @apply text-neutral-400 bg-neutral-700;
+}
+
+.mono-font {
+    font-family: monospace;
 }

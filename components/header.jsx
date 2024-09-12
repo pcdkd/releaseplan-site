@@ -17,11 +17,7 @@ export function Header() {
                     </a>
                 </Link>
             </div>
-            <div className="ml-auto">
-                <Link href="https://app.releaseplanai.com/" legacyBehavior>
-                    <a className="text-sm no-underline">Login / Signup</a>
-                </Link>
-            </div>
+            
         </nav>
     );
 }
