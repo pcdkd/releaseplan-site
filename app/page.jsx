@@ -36,7 +36,7 @@ export default function Page() {
             </section>
             
             {/* Two-Column Feature Section */}
-            <section className="flex flex-col sm:flex-row items-center gap-8 sm:gap-16 py-16" id="create-release">
+            <section className="flex flex-col sm:flex-row items-center gap-8 sm:gap-16 py-16">
                 <div className="flex flex-col gap-4 sm:w-1/2">
                     <h2 className="text-3xl font-bold">The first AI release plan tool for creative teams
                     </h2>
@@ -44,7 +44,7 @@ export default function Page() {
                         Stop messing around with broken distributor promo tools. Generate an entire release plan in seconds. <br></br>Enter your release or drop title, drop date and URL and a 6 week release plan will generate instantly.<br></br> Your first release plan is on us!
                     </p>
                 </div>
-                <div className="flex justify-center sm:w-1/2">
+                <div className="flex justify-center sm:w-1/2" id="create-release">
                     <img src="/images/create-release-plan-ui.png" alt="release plan ai create release plan" className="rounded-sm shadow-lg" />
                 </div>
             </section>

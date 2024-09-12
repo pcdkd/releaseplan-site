@@ -255,7 +255,7 @@ const Legal = () => {
 
 <p>Exercising Your Rights</p>
 
-<p>To exercise the rights described above or if you have a question or concern, please contact us at legal@releaseplanai.com and we will aim to address or resolve it. If we cannot, you have the right to lodge a complaint with your local data protection authority.</p>
+<p>To exercise the rights described above or if you have a question or concern, please contact us at legal @ releaseplanai . com and we will aim to address or resolve it. If we cannot, you have the right to lodge a complaint with your local data protection authority.</p>
 
 <p>Changes</p>
 
