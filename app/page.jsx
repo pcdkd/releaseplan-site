@@ -105,7 +105,7 @@ export default function Page() {
                         <p className="mt-2">Not at this time.</p>
                     </details>
                     <details className="border border-gray-300 rounded p-4">
-                        <summary className="font-semibold cursor-pointer">Does Release Plan AI genreate AI images for posts?</summary>
+                        <summary className="font-semibold cursor-pointer">Does Release Plan AI generate AI images for posts?</summary>
                         <p className="mt-2">We don&apos;t support image generation. Generally, image generation is the worst part of AI tools and we wouldn&apos;t want people create more AI image slop.</p>
                     </details>
                     <details className="border border-gray-300 rounded p-4">
