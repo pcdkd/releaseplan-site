@@ -70,9 +70,9 @@ export default function Page() {
                 </div>
                 <div className="flex flex-col gap-4 sm:w-8/12">
                     <h3 className="text-2xl font-bold">Single pricing model</h3>
-                    <h3 className="text-6xl font-bold">$12<span className="text-sm"> /year</span></h3>
+                    <h3 className="text-6xl font-bold">$2<span className="text-sm"> /month</span></h3>
                     <p className="text-lg">
-                        First plan is on us. Then just $2 per month (billed $12/year)
+                        First plan is on us. Then $2 per month (billed $12/year)
                     </p>
                     
                     <Link href="https://app.releaseplanai.com/" legacyBehavior>
